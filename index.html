@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+        <div class="container">
+            <h1>Tip Calculator</h1>
+            <label for="bill_amount">Bill Amount($)</label>
+                <input type="number" id="bill_amount" required><br>
+            <label for="tip">Tip Percentage(%)</label>
+                <input type="number" name="" id="tip" required><br>
+            <label for="num-people">Number of people</label>
+                <input type="number" name="" id="num-people" required min="1"><br>
+                    <button id="btn">Calculate</button>
+                    <button id="clear">Clear</button>
+                             
+            <!--Total Result  -->
+                    <p id="total_tip">Total Tip : </p>
+                    <p id="total_bill">Total Bill : </p>
+                    <p id="t_amount_person">Amount per person : </p>
+                     
+        </div>
+                
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
