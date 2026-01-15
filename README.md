@@ -1,4 +1,4 @@
-# Tip Calculator
+# Tip Calculator - https://tubular-treacle-128037.netlify.app/
 
 Simple web app to calculate tips and split bills between people.
 
